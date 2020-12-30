@@ -16,7 +16,7 @@ console.log(hour);
 
 //poems
 
-var poemOne = "Missippi Queen: <br> rattlesnake woman, dangling <br> unholy like a tree snake <br> from the twisted magnolia.";
+var poemOne = "I thought you were going to make out with Sebastion. <br> I didn't know <br> he was literally a dog.";
 var poemTwo = "Shape shifting lurker of my inner desire; <br> dizzy silhouette <br> against cracksmoke and marijuana plumes.";0
 var poemThree = "I want to be your red dress<br>your secret,<br>hidden,<br>salt chest.";
 var poemFour = "Will you be my New Years Kiss?";
