@@ -25,32 +25,32 @@ var poemFour = "And now it's 2021 and I must ask you a question:<br> Will you ma
 
 function introline(){
 	
-if (hour > 20 || hour == 0) { 
+if (hour > 1 || hour == 0) { 
 	intro.style.visibility="hidden"
 		}
 	};
 introline();
 
 function timePoemOne() {
-	var comparison = (hour >= 21 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
+	var comparison = (hour >= 4 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
   };
   
 timePoemOne();
 
 function timePoemTwo() {
-	var comparison = (hour >= 22 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
+	var comparison = (hour >= 4 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
   };
   
 timePoemTwo();
 
 function timePoemThree() {
-	var comparison = (hour >= 23 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
+	var comparison = (hour >= 4 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
   };
   
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 0) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 4) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
