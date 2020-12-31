@@ -17,7 +17,7 @@ console.log(hour);
 //poems
 
 var poemOne = "A year ago I thought you were going to make out with Sebastion. <br> I didn't know <br> he was literally a dog.";
-var poemTwo = "That year has passed like a comet for the ages: <br> aggression, congestion, digestion, <br> oppression, regression, supression.";
+var poemTwo = "That year has passed like a comet for the ages: <br> aggression, congestion, digestion, <br> oppression, concession, supression.";
 var poemThree = "I became your red dress;<br>your secret, hidden, salt bed.";
 var poemFour = "But now it's 2021 and I must ask you a question:<br> may we be wed?";
 
