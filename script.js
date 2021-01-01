@@ -18,8 +18,8 @@ console.log(hour);
 
 var poemOne = "A year ago I thought you were going to make out with Sebastion. I didn't know <br> he was literally a dog.";
 var poemTwo = "That year has passed like a comet for the ages: <br> aggression, congestion, digestion, <br> oppression, concession, supression.";
-var poemThree = "I became your red dress;<br>your secret, hidden, salt bed.";
-var poemFour = "But now it's 2021 and I must ask you a question:<br> may we be wed?";
+var poemThree = "I became your red dress;<br>your secret, well made, salted bed.";
+var poemFour = "Now it's 2021 and I must ask you:<br> may we be wed?";
 
 //functions
 
@@ -32,25 +32,25 @@ if (hour > 1 || hour == 0) {
 introline();
 
 function timePoemOne() {
-	var comparison = (hour >= 4 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
+	var comparison = (hour >= 21 || hour == 0) ? paraOne.innerHTML = poemOne : console.log("not yet poemOne")
   };
   
 timePoemOne();
 
 function timePoemTwo() {
-	var comparison = (hour >= 4 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
+	var comparison = (hour >= 22 || hour == 0) ? paraTwo.innerHTML = poemTwo : console.log("not yet poemTwo")
   };
   
 timePoemTwo();
 
 function timePoemThree() {
-	var comparison = (hour >= 4 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
+	var comparison = (hour >= 23 || hour == 0) ? paraThree.innerHTML = poemThree : console.log("not yet poemThree")
   };
   
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 20) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 0) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
