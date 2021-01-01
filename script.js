@@ -50,7 +50,7 @@ function timePoemThree() {
 timePoemThree();
 
 function timePoemFour() {
-	var comparison = (hour == 17) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
+	var comparison = (hour == 19) ? paraFour.innerHTML = poemFour : console.log("not yet poemFour")
   };
   
 timePoemFour();
