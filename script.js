@@ -25,7 +25,7 @@ var poemFour = "Now it's 2021 and I must ask you:<br> may we be wed?";
 
 function introline(){
 	
-if (hour > 1 || hour == 0) { 
+if (hour > 20 || hour == 0) { 
 	intro.style.visibility="hidden"
 		}
 	};
